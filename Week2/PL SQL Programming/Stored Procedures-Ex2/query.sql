@@ -22,7 +22,9 @@ INSERT INTO Employees VALUES (3, 'Rahul', 'IT', 60000);
 
 COMMIT;
 
+-----------------------------------------------
 --Scenario 1: Process Monthly Interest
+-----------------------------------------------
 
 CREATE OR REPLACE PROCEDURE ProcessMonthlyInterest
 AS
@@ -44,7 +46,9 @@ END;
 
 SELECT * FROM Accounts;
 
+-----------------------------------------------
 --Scenario 2: Update Employee Bonus
+-----------------------------------------------
 
 CREATE OR REPLACE PROCEDURE UpdateEmployeeBonus(
     p_department IN VARCHAR2,
@@ -69,8 +73,9 @@ END;
 
 SELECT * FROM Employees;
 
-
+-----------------------------------------------
 -- Scenario 3: Transfer Funds
+-----------------------------------------------
 
 CREATE OR REPLACE PROCEDURE TransferFunds(
     p_fromAccount IN NUMBER,

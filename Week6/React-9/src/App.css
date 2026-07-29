@@ -1,0 +1,13 @@
+.container{
+  margin:40px;
+  font-family:Arial;
+}
+
+table{
+  border-collapse:collapse;
+  margin-top:20px;
+}
+
+th,td{
+  padding:10px;
+}
